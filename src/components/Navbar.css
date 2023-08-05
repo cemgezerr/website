@@ -1,0 +1,38 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px 20px;
+    color: white;
+  }
+  
+  .Logo {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .NavLinks {
+    display: flex;
+    align-items: center;
+  }
+  
+  .NavLinks > * {
+    margin-left: 20px;
+  }
+  
+  .NavLinks > *:last-child {
+    margin-right: 0;
+  }
+  
+  .NavLinks a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s;
+  }
+  
+  .NavLinks a:hover {
+    color: #ffd700;
+  }
+  
